@@ -1,0 +1,6 @@
+dein/repos/*
+dein/.cache/*
+dein/cache_vim
+dein/cache_nvim
+dein/state_vim.vim
+dein/state_nvim.vim

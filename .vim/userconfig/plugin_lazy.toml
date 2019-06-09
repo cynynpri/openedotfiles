@@ -1,0 +1,28 @@
+[[plugins]]
+  repo = 'cohama/lexima.vim'
+  on_i = 1
+
+[[plugins]]
+  repo = 'w0rp/ale'
+  on_ft = ['python', 'py']
+
+[[plugins]]
+  repo = 'udalov/kotlin-vim'
+  on_ft = ['kotlin', 'kt']
+
+[[plugins]]
+  repo = 'cespare/vim-toml'
+	on_ft = ['toml']
+
+[[plugins]]
+  repo = 'posva/vim-vue'
+	on_ft = ['vue']
+
+[[plugins]]
+  repo = 'leafgarland/typescript-vim'
+	on_ft = ['typescript', 'typescript.ts', 'typescript.tsx']
+
+[[plugins]]
+  repo = 'ryanolsonx/vim-lsp-typescript'
+	on_ft = ['typescript', 'typescript.tsx']
+

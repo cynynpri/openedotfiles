@@ -30,3 +30,6 @@
 
 [[plugins]]
   repo = 'ConradIrwin/vim-bracketed-paste'
+
+[[plugins]]
+  repo = 'airblade/vim-gitgutter'

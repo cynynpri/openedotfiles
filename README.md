@@ -4,6 +4,7 @@
 # how to use
 ```bash
 $ git clone https://github.com/cynynpri/openedotfiles.git
-$ ./openedotfiles/init.sh
+$ mv ~/openedotfiles ~/dotfiles
+$ ./dotfiles/init.sh
 ```
 

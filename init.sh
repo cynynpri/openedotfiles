@@ -25,8 +25,8 @@ done
 echo "$(tput setaf 2)Deploy dotfiles complete!. $(tput sgr0)"
 
 # nvim files settings.
-ln -sf "${DOT_DIRECTORY}/.vim/autoload" "${DOT_DIRECTORY}/nvim/autoload"
-ln -sf "${DOT_DIRECTORY}/.vim/colors" "${DOT_DIRECTORY}/nvim/colors"
+# ln -sf "${DOT_DIRECTORY}/.vim/autoload" "${DOT_DIRECTORY}/nvim/autoload"
+# ln -sf "${DOT_DIRECTORY}/.vim/colors" "${DOT_DIRECTORY}/nvim/colors"
 ln -sf "${DOT_DIRECTORY}/.vim/userconfig" "${DOT_DIRECTORY}/nvim/userconfig"
 ln -sf "${DOT_DIRECTORY}/.vimrc" "${DOT_DIRECTORY}/nvim/init.vim"
 echo "$(tput setaf 2)Deploy nvim settings complete!. $(tput sgr0)"

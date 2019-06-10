@@ -1,4 +1,4 @@
-let s:schemename = 'iceberg'
+let s:schemename = 'desert'
 
 nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>

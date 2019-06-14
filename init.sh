@@ -36,7 +36,8 @@ if grep XDG_CONFIG_HOME ${HOME}/.bashrc > /dev/null 2>&1; then
   echo 'exist XDG_CONFIG_HOME settings.'
   echo 'Please, check your XDG_CONFIG_HOME with .bashrc'
 else
-  echo 'export XDG_CONFIG_HOME="${HOME}/.config"' > ~/.bashrc
+  echo 'Please, write your XDG_CONFIG_HOME in .bashrc or .bash_profile.'
+  echo 'export XDG_CONFIG_HOME="${HOME}/.config"'
 fi
 ln -sf "${DOT_DIRECTORY}/nvim" "${HOME}/.config"
 

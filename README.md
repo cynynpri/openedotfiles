@@ -1,7 +1,7 @@
 # dotfiles
 .vim .vimrc and so on.
 
-### prepare use
+### prepare to use
 add nvim.  
 ubuntu/raspbian  
 ```bash

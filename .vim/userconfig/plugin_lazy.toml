@@ -12,17 +12,17 @@
 
 [[plugins]]
   repo = 'cespare/vim-toml'
-	on_ft = ['toml']
+  on_ft = ['toml']
 
 [[plugins]]
   repo = 'posva/vim-vue'
-	on_ft = ['vue']
+  on_ft = ['vue']
 
 [[plugins]]
   repo = 'leafgarland/typescript-vim'
-	on_ft = ['typescript', 'typescript.ts', 'typescript.tsx']
+  on_ft = ['typescript', 'typescript.ts', 'typescript.tsx']
 
 [[plugins]]
   repo = 'ryanolsonx/vim-lsp-typescript'
-	on_ft = ['typescript', 'typescript.tsx']
+  on_ft = ['typescript', 'typescript.tsx']
 

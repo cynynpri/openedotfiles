@@ -26,10 +26,17 @@ liviuschera.noctis
 mathiasfrohlich.Kotlin
 Mikael.Angular-BeastCode
 mine.cpplint
+monokai.theme-monokai-pro-vscode
 ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-ja
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode-remote.remote-ssh-explorer
+ms-vscode-remote.remote-wsl
+ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.atom-keybindings
 ms-vscode.cpptools
 ms-vscode.csharp
@@ -46,6 +53,7 @@ redhat.java
 redhat.vscode-yaml
 rokoroku.vscode-theme-darcula
 sallar.vscode-duotone-dark
+teabyii.ayu
 Tyriar.theme-sapphire
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug

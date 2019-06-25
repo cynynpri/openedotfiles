@@ -61,6 +61,14 @@ set ext_50=vscoss.vscode-ansible
 set ext_51=wesbos.theme-cobalt2
 set ext_52=xabikos.JavaScriptSnippets
 set ext_53=zhuangtongfa.Material-theme
+set ext_54=monokai.theme-monokai-pro-vscode
+set ext_55=ms-vscode-remote.remote-containers
+set ext_56=ms-vscode-remote.remote-ssh
+set ext_57=ms-vscode-remote.remote-ssh-edit
+set ext_58=ms-vscode-remote.remote-ssh-explorer
+set ext_59=ms-vscode-remote.remote-wsl
+set ext_60=ms-vscode-remote.vscode-remote-extensionpack
+set ext_61=teabyii.ayu
 
 set cnt=1
 :BEGIN

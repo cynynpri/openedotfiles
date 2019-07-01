@@ -6,7 +6,9 @@ cd ${DOT_DIRECTORY}
 # dein init
 rm -rf "${DOT_DIRECTORY}/dein/repos"
 echo 'rm -rf ${DOT_DIRECTORY}/dein/repos'
-sh "${DOT_DIRECTORY}/dein/installer.sh"
+echo 'chmod +x ${DOT_DIRECTORY}/dein/installer.sh'
+chmod +x ${DOT_DIRECTORY}/dein/installer.sh
+sh "${DOT_DIRECTORY}/dein/installer.sh ${DOT_DIRECTORY}/dein"
 echo "$(tput setaf 1)You don't need to write dein setting in .vimrc.$(tput sgr0)"
 
 # dotfiles auto settings.

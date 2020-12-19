@@ -87,6 +87,7 @@ endif
 
 function! s:colorscheme_init()
   if s:schemename == 'iceberg'
+    set background=dark
     colorscheme iceberg
   elseif s:schemename == 'onedark'
     colorscheme onedark

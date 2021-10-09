@@ -1,14 +1,21 @@
 #!/bin/sh
 DOT_DIRECTORY="${HOME}/dotfiles"
 
+CURRENT_ABS_DIRECTORY="$(cd $(dirname $0); pwd)"
+
+# Running this script on not home dir then.
+if [ ${CURRENT_ABS_DIRECTORY} != ${DOT_DIRECTORY} ]; then
+  ln -sf "${CURRENT_ABS_DIRECTORY}" "${DOT_DIRECTORY}"
+fi
+
 cd ${DOT_DIRECTORY}
 
 # dein init
 rm -rf "${DOT_DIRECTORY}/dein/repos"
 echo 'rm -rf ${DOT_DIRECTORY}/dein/repos'
-echo 'chmod +x ${DOT_DIRECTORY}/dein/installer.sh'
 chmod +x ${DOT_DIRECTORY}/dein/installer.sh
-sh "${DOT_DIRECTORY}/dein/installer.sh ${DOT_DIRECTORY}/dein"
+echo 'chmod +x ${DOT_DIRECTORY}/dein/installer.sh'
+/bin/sh -C "${DOT_DIRECTORY}/dein/installer.sh ${DOT_DIRECTORY}/dein"
 echo "$(tput setaf 1)You don't need to write dein setting in .vimrc.$(tput sgr0)"
 
 # dotfiles auto settings.

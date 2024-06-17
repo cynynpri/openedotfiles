@@ -21,8 +21,3 @@
 [[plugins]]
   repo = 'leafgarland/typescript-vim'
   on_ft = ['typescript', 'typescript.ts', 'typescript.tsx']
-
-[[plugins]]
-  repo = 'ryanolsonx/vim-lsp-typescript'
-  on_ft = ['typescript', 'typescript.tsx']
-

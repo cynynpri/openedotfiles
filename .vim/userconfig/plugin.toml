@@ -14,9 +14,6 @@
   repo = 'prabirshrestha/asyncomplete-lsp.vim'
 
 [[plugins]]
-  repo = 'ryanolsonx/vim-lsp-python'
-
-[[plugins]]
   repo = 'joshdick/onedark.vim'
 
 [[plugins]]

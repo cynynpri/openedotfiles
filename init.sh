@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 DOT_DIRECTORY="${HOME}/dotfiles"
 
 CURRENT_ABS_DIRECTORY="$(cd $(dirname $0); pwd)"
